@@ -11,11 +11,7 @@ import {GalleryImage} from '../models/galleryImage.model';
 })
 export class GalleryComponent implements OnInit, OnChanges {
   images: Observable<GalleryImage[]>;
-  constructor(private imageService: ImageService) { 
-
-
-
-  }
+  constructor(private imageService: ImageService) { }
 
   ngOnInit() {
     this.images = this.imageService.getImages();

@@ -11,7 +11,7 @@ export const environment = {
     authDomain: 'angular-gallary-6730c.firebaseapp.com',
     databaseURL: 'https://angular-gallary-6730c.firebaseio.com',
     projectId: 'angular-gallary-6730c',
-    storageBucket: '',
+    storageBucket: 'angular-gallary-6730c.appspot.com',
     messagingSenderId: '813533433188'
   }
 };

@@ -23,4 +23,9 @@ private uid: string;
     return this.db.list('uploads');
   }
 
+  getImageUrl(key: string) {
+    return firebase.database().ref('uploads/' + key).once('value')
+    .then((snap) => snap.val());
+  }
+
 }
